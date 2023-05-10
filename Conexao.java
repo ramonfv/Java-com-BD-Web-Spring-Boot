@@ -7,6 +7,7 @@ public class Conexao {
     private String senha;
 
     public Conexao() {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite a senha: ");
         this.senha = scanner.nextLine();
